@@ -1,0 +1,38 @@
+---
+title: Twitter
+heroHeader: yes
+heroFooter: yes
+heroBgColor: lblue
+heroTextColor: white
+highlightColor: text-googleGrey
+color: bg-yellow text-black
+heroTextOne: Twitter Account
+heroTextTwo:
+menuFooter: yes
+signupHeader: no
+signupFooter: no
+---
+
+{% extends "_includes/layouts/base.njk" %}
+
+{% block title %}{% endblock %}
+
+  {% block content %}
+
+    <!-- SERVICES -->
+
+      {% set blockColor = "bg-lblue/10 text-black" %}
+      {% set heroBgColor = "text-lblue" %}
+
+      <div class=" {{ blockColor }}">
+          <div class="{{ site.style.container }}">
+              <p class="{{ site.style.p }}">
+                <span class="{{ site.services.subtitle }}">The official STOQE Twitter handle is <a href="/clients/" class="{{ heroBgColor }} underline">@STOQE</a> which is located at
+                <a href="/clients/" class="{{ heroBgColor }} underline">twitter.com/STOQE</a></span>.
+              </p>
+            
+          </div>
+        </div>
+
+  {% endblock %}
+

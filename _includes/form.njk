@@ -1,0 +1,52 @@
+<!-- CONTACT FORM -->
+<form netlify name="contact stoqe" action="/thank-you-form/" method="POST" class="text-black grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8 ">
+    <div>
+    <label for="first-name" class="block">Your Name<span class="text-{{ site.contact.requiredc }}">*</span></label>
+    <div class="mt-1">
+        <input required="required" type="text" name="first-name" id="first-name" autocomplete="given-name" class="{{ site.contact.forminputclasses }}" placeholder="Your preferred name">
+    </div>
+    </div>
+    <div>
+    <label for="pronouns" class="block">Preferred Pronouns?</label>
+        <div class="mt-1">
+            <input type="text" name="pronouns" id="pronouns" autocomplete="pronouns" class="{{ site.contact.forminputclasses }}" placeholder="Your preferred pronouns (optional)">
+        </div>
+    </div>
+    <div class="sm:col-span-2">
+    <label for="company" class="block">Company</label>
+    <div class="mt-1">
+        <input type="text" name="company" id="company" autocomplete="organization" class="{{ site.contact.forminputclasses }}" placeholder="Your business name, brand, or website (optional)">
+    </div>
+    </div>
+    <div class="sm:col-span-2">
+        <label for="email" class="block">Your Email<span class="text-{{ site.contact.requiredc }}">*</span></label>
+        <div class="mt-1">
+            <input required="required" id="email" name="email" type="email" autocomplete="email" class="{{ site.contact.forminputclasses }}" Placeholder="Your contact email address">
+        </div>
+    </div>
+    <div class="sm:col-span-2">
+        <label for="phone-number" class="block font-medium text-black">Your Offer in USD<span class="text-{{ site.contact.requiredc }}">*</span></label>
+        <div class="mt-1 relative rounded-md shadow-sm">
+            <input required="required" type="number" name="phone-number" id="phone-number" autocomplete="tel" class="{{ site.contact.forminputclasses }}" placeholder="Lowball offers are ignored">
+        </div>
+    </div>
+    <div class="sm:col-span-2">
+    <label for="message" class="block text-">Message<span class="text-{{ site.contact.requiredc }}">*</span></label>
+    <div class="mt-1">
+        <textarea required="required" id="message" name="message" rows="4" class="{{ site.contact.forminputclasses }}"></textarea>
+    </div>
+    </div>
+    <!--div class="sm:col-span-2">
+        <p class="text- text-white">
+            By selecting this, you agree to the
+            <a href="#" class="font-medium text-gray-700 underline">Privacy Policy</a>
+            and
+            <a href="#" class="font-medium text-gray-700 underline">Cookie Policy</a>.
+        </p>
+    </div-->
+    <div class="sm:col-span-2 mt-8">
+        <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-big font-medium text-white bg-greenCrayola hover:bg-famous focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-famous">
+            <span class="animate-pulse">Click to send your form</span> 
+        </button>
+    </div>
+</form>

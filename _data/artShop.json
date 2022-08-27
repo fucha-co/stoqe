@@ -1,0 +1,52 @@
+{
+  "items": [
+      {
+        "title": "White People",
+        "image": "sayso-white-people-hoodie",
+        "btnText": "Buy",
+        "sizes": [ "xs", "s", "m", "l", "xl", "xxl"]
+       },
+       {
+         "title": "1 in 3",
+         "image": "sayso-1-in-3-hoodie",
+         "btnText": "Preorder",
+         "sizes": [ "xs", "s", "m", "l", "xl", "xxl"]
+       },
+       {
+        "title": "The Sound Of",
+        "image": "sayso-the-sound-of-hoodie",
+        "btnText": "Buy",
+        "sizes": [ "xs", "s", "m", "l", "xl"]
+      },
+      {
+        "title": "Bae/Babe",
+        "image": "sayso-pronouns-hoodie",
+        "btnText": "Preorder"
+      },
+      {
+        "title": "Half Of All I Write",
+        "image": "sayso-half-of-all-i-write",
+        "btnText": "Preorder"
+      },
+      {
+        "title": "No-one Loves Me",
+        "image": "sayso-no-one-loves-me-hoodie",
+        "btnText": "Preorder"
+      },
+      {
+        "title": "I'll Love You Forever",
+        "image": "sayso-love-you-forever-hoodie",
+        "btnText": "Preorder"
+      },
+      {
+        "title": "Sometimes I Cry",
+        "image": "saysosome-times-i-cry-hoodie",
+        "btnText": "Preorder"
+      },
+      {
+        "title": "I Miss You Already",
+        "image": "sayso-i-miss-you-already-hoodie",
+        "btnText": "Preorder"
+      }
+  ]
+}

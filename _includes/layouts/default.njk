@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>sayso</title>
+    <meta name="description" content="International award-winning artist. 🏆"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <!-- hosted fonts aren't working in safari 🤷🏾 -->
+      <!--link rel="preload" href="/fonts/Barriecito-Regular.ttf" as="font" type="font/ttf" crossorigin-->
+      <link rel="preload" href="/fonts/Barriecito-Regular.woff" as="font" type="font/woff" crossorigin>
+      <link rel="preload" href="/fonts/Barriecito-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- so gfonts it is; with a wierd &rarr; workaround -->
+      <!--link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap&text=%E2%86%92" rel="stylesheet"-->
+    <link rel="stylesheet" href="/style.css?v={% version %}"/>
+    {% block head %}{% endblock %}
+    <script defer src="/js/alpine.js?v={% version %}"></script>
+  </head>
+  <body class="{{ site.style.body }}">
+    {% block content %}
+      {{ content | safe }}
+    {% endblock %}
+  </body>
+</html>

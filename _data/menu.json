@@ -1,0 +1,46 @@
+{
+  "items": [
+      {
+        "text": "About",
+        "link": "about",
+        "target": "",
+        "colour": "orange"
+      },
+      {
+        "text": "History",
+        "link": "history",
+        "target": "",
+        "colour": "blue"
+      },
+      {
+        "text": "For Sale",
+        "link": "for-sale",
+        "target": "",
+        "colour": "pink"
+      },
+      {
+        "text": "Domain",
+        "link": "domain",
+        "target": "",
+        "colour": "purple"
+      },
+      {
+        "text": "Twitter",
+        "link": "twitter",
+        "target": "",
+        "colour": "lblue"
+      },
+      {
+        "text": "Instagram",
+        "link": "instagram",
+        "target": "",
+        "colour": "darkRust"
+      },
+      {
+        "text": "Enquiries",
+        "link": "contact",
+        "target": "",
+        "colour": "greenCrayola"
+      }
+  ]
+}

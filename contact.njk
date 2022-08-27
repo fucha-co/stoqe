@@ -1,0 +1,21 @@
+---
+title: contact
+heroHeader: yes
+heroFooter: yes
+heroBgColor: greenCrayola
+heroTextColor: white
+heroTextOne: Enquiries & Offers
+signupHeader: no
+menuFooter: yes
+signupFooter: no
+---
+
+{% extends "_includes/layouts/base.njk" %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+  <div class="{{ site.style.container }}">
+    {% include "form.njk" %}
+  </div>
+{% endblock %}

@@ -1,0 +1,63 @@
+<!-- HERO -->
+<div class="hero {{ site.hero.style.block }} bg-{{ heroBgColor }} text-{{ heroTextColor }}">
+    <div class="{{ site.style.container }} {{ site.hero.style.container }}">
+
+      <!-- TITLE -->
+
+        <!-- Make hero h1 a link on all pages except home-->
+          {% if page.url == "/" %}
+
+            <h1 class="{{ site.hero.style.title }} {{ site.style.title }}">
+              {{ site.hero.title }}
+            </h1>
+          
+          {% else %}
+          
+            <a href="/">
+              <h1 class="{{ site.hero.style.title }} {{ site.style.title }}">
+                {% if pagetitle %}
+                  {{ pagetitle }}
+                  {{ subtitle }}
+                {% else %}
+                  {{ site.hero.title }}
+                {% endif %}
+              </h1>
+            </a>
+
+          {% endif %}
+
+        <!-- SUBTITLE -->
+
+          {% if (page.url == "/") or (page.url == "/aoc/") %}
+
+              <p class="mb-16 sm:mb-16">
+                half of all i write is fiction&nbsp;<br class="hidden sm:inline">and the rest i just make up...
+              </p>
+
+              {% if heroTextOne %}
+                {{ heroTextOne }}
+              {% else %}
+            
+              {% endif %}
+
+              {% include "menu.njk" %}
+        
+          {% else %}
+
+              <p class="{{ site.style.p }}">
+                {# % if page.url == "/work/" %}{% include "work-hero-text-one.njk" %}{% endif % #}
+                {% if preCountText %}{{ preCountText }} {% endif %}
+                {% if postCount %}{{ postslistCounter }} {% endif %}
+                {% if heroTextOne %}{{ heroTextOne }}{% endif %}
+              </p>
+
+              {% if heroTextTwo %}<p class=" {{ site.style.p }}">{{ heroTextTwo }}</p>{% endif %}
+              {% if heroTextThree %}<p class="hidden sm:inline-block {{ site.style.p }}">{{ heroTextThree }}</p>{% endif %}
+          
+              
+
+          {% endif %}
+
+    </div>
+</div>
+<!-- END HERO -->

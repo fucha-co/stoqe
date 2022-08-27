@@ -1,0 +1,294 @@
+{
+  "name": "STOQE",
+  "www": "",
+  "style": {
+    "body": "bg-white font-barri font-normal not-italic text-4xl sm:text-6xl tracking-ss leading-0",
+    "container": "container px-6 w-full sm:w-4/5 sm:mx-auto",
+    "title": "text-7xl sm:text-10xl uppercase",
+    "subtitle": "mb-16 text-5xl sm:text-6xl",
+    "p": "mb-10"
+  },
+  "aww": {
+    "body": "bg-white font-barri font-normal not-italic text-4xl sm:text-6xl tracking-ss leading-0 py-24",
+    "container": "w-full",
+    "title": "text-7xl sm:text-9xl ",
+    "subtitle": "mb-20 text-5xl sm:text-5xl",
+    "p": "mb-10"
+  },
+  "text": {
+    "title": "text-xbig sm:text-huge",
+    "bgc": "black",
+    "fontc": "white"
+  },
+  "hero": {
+    "home": "min-h-screen bg-black text-white",
+    "work": "bg-black text-white",
+    "words": "bg-black text-white",
+    "title": "STOQE",
+    "style": {
+      "block": "",
+      "container": "pt-0",
+      "title": "mb-0",
+      "subtitle": "",
+      "p": "",
+      "span": ""
+    }
+  },
+  "clients": {
+    "title": "SAYSO",
+    "subtitle": "The brands who use my brains",
+    "style": {
+      "block": "bg-blue text-white",
+      "title": "text-yellow",
+      "subtitle": "text-yellow",
+      "p": "",
+      "span": ""
+    }
+  },
+  "services": {
+    "title": "services",
+    "subtitle": "",
+    "subtitlec": "black",
+    "fontc": "black",
+    "span": "",
+    "style": {
+      "block": "bg-yellow text-black",
+      "altBlock": "bg-black text-white",
+      "container": "py-20",
+      "title": "text-black",
+      "altTitle": "text-orange",
+      "highlightColor": "text-orange",
+      "subtitle": "text-pink underline",
+      "altSubtitle": "text-pink underline",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "funfact": {
+    "title": "Fun Fact:",
+    "p": "My first 3 clients of 2021 had a combined 2020 revenue of $161 Billion💰",
+    "style": {
+      "block": "text-white bg-pink",
+      "container": "py-20",
+      "title": "text-black underline",
+      "subtitle": "",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "nplove": {
+    "title": "No-Profit Love:",
+    "p": "If you're a community service, local business, non-profit, Indie Artist, Enby Entrepreneur, fulltime Mum, startup Kid, Mum-and-Pop shop, or the Hilltop [Hoods], you can get my worldclass services at Low-Profit prices.",
+    "style": {
+      "block": "text-white bg-lblue",
+      "container": "py-20",
+      "title": "text-black underline",
+      "subtitle": "",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "lplove": {
+    "title": "Low-Profit Love:",
+    "p": "If you're a community service, local business, non-profit, Indie Artist, Enby Entrepreneur, fulltime Mum, startup Kid, Mum-and-Pop shop, or the Hilltop [Hoods], you can get my worldclass services at Low-Profit prices.",
+    "style": {
+      "block": "text-white bg-lblue",
+      "container": "py-20",
+      "title": "text-black underline",
+      "subtitle": "",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "whoops": {
+    "title": "Whoops!",
+    "p": "I've broken this page a bit. I'm literally fixing it rn...",
+    "style": {
+      "block": "text-white bg-pink",
+      "container": "py-20",
+      "title": "text-black underline",
+      "subtitle": "",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "signup": {
+    "title": "",
+    "p": "",
+    "style": {
+      "block": "",
+      "container": "py-0",
+      "title": "text-black underline",
+      "subtitle": "",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "work": {
+    "title": "Work🗳",
+    "subtitle": "",
+    "bgc": "pink",
+    "titlec": "pink",
+    "subtitlec": "black",
+    "fontc": "black",
+    "hoverc": "green",
+    "highlightc": "pink",
+    "style": {
+      "block": "bg-white text-black",
+      "container": "",
+      "title": "text-pink",
+      "subtitle": "text-black",
+      "p": {
+        "title": "group cursor-pointer",
+        "text": "pb-2 transition-all text-blue text-3xl sm:text-5xl duration-1000 pl-7 sm:pl-11",
+        "link": "group text-pink hover:text-green ml-0 block sm:block"
+      },
+      "span": ""
+    }
+  },
+  "art": {
+    "title": " 🛍online shop",
+    "subtitle": "Online Now",
+    "bgc": "purple",
+    "titlec": "white",
+    "hoverc": "green",
+    "highlightc": "yellow",
+    "style": {
+      "block": "bg-purple text-white",
+      "container": "",
+      "title": "text-yellow",
+      "subtitle": "text-yellow",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "words": {
+    "title": "SAYSO",
+    "subtitle": "Poems, Prose, Quotes, & Little Letters of Love",
+    "subsubtitle": "Poems, Quotes, & Little letters of Love",
+    "bgc": "white",
+    "titlec": "pink",
+    "subtitlec": "black",
+    "fontc": "black",
+    "hoverc": "green",
+    "highlightc": "orange",
+    "style": {
+      "block": "bg-white text-black",
+      "container": "",
+      "title": "mb-8 text-6xl",
+      "subtitle": "text-black",
+      "p": {
+        "title": "group cursor-pointer",
+        "text": "pb-2 transition-all text-blue text-3xl sm:text-5xl duration-1000 pl-7 sm:pl-11",
+        "link": "group text-black hover:text-green visited:text-black ml-0 block sm:block"
+      },
+      "span": ""
+    }
+  },
+  "faces": {
+    "title": "SAYSO",
+    "subtitle": "Poems, Prose, Quotes, & Little Letters of Love",
+    "subsubtitle": "Poems, Quotes, & Little letters of Love",
+    "bgc": "gold",
+    "titlec": "pink",
+    "subtitlec": "black",
+    "fontc": "black",
+    "hoverc": "green",
+    "highlightc": "pink",
+    "style": {
+      "block": "bg-gold text-white",
+      "container": "",
+      "title": "mb-8 text-6xl",
+      "subtitle": "text-black",
+      "p": {
+        "title": "group cursor-pointer",
+        "text": "pb-2 transition-all text-blue text-3xl sm:text-5xl duration-1000 pl-7 sm:pl-11",
+        "link": "group text-black hover:text-green visited:text-black ml-0 block sm:block"
+      },
+      "span": ""
+    }
+  },
+  "aoc": {
+    "style": {
+      "block": "bg-black text-white",
+      "p": "text-white"
+    }
+  },
+  "google": {
+    "style": {
+      "block": "bg-googleGrey text-white",
+      "p": "text-white"
+    }
+  },
+  "covid": {
+    "title": "My Covid Crisis",
+    "subtitle": "March 2020 - Today",
+    "bgc": "purple",
+    "titlec": "black",
+    "subtitlec": "yellow",
+    "fontc": "white",
+    "hoverc": "green",
+    "highlightc": "famous",
+    "style": {
+      "block": "bg-white text-black",
+      "container": "",
+      "title": "text-famous",
+      "subtitle": "text-famous",
+      "highlight": "text-famous",
+      "p": {
+        "title": "group cursor-pointer",
+        "text": "pb-2 transition-all text-blue text-3xl sm:text-5xl duration-1000 pl-7 sm:pl-11",
+        "link": "group text-pink hover:text-green ml-0 block sm:inline-block"
+      }
+    }
+  },
+  "gift": {
+    "bgc": "purple",
+    "titlec": "white",
+    "subtitlec": "white",
+    "fontc": "black",
+    "hoverc": "green",
+    "highlightc": "pringlessupp",
+    "style": {
+      "block": "",
+      "container": "mt-20 grid grid-cols-1 grid-rows-10 gap-4 grid-flow-row sm:grid-cols-2 sm:grid-rows-5 sm:gap-y-4 sm:gap-x-12 sm:grid-flow-col",
+      "title": "text-pringlessupp",
+      "subtitle": "text-pringlessupp",
+      "p": {
+        "title": "group cursor-pointer",
+        "text": "pb-2 transition-all text-blue text-3xl sm:text-5xl duration-1000 pl-7 sm:pl-11",
+        "link": "group text-pink hover:text-green ml-0 block sm:inline-block"
+      },
+      "button": "inline-block px-4 py-4 border border-transparent shadow-sm rounded-md text-3xl sm:text-5xl text-black bg-yellow hover:text-famous hover:bg-pringlessupp focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+    }
+  },
+  "contact": {
+    "title": "🦄Contact",
+    "subtitle": "SAYSO",
+    "more": "Let's connect and make magic...",
+    "titlec": "white",
+    "subtitlec": "white",
+    "forminputclasses": "py-3 px-4 block w-full shadow-sm ring-greenCrayola ring-2 focus:ring-greenCrayola focus:ring-4 border-none rounded-md text-3xl text-famous placeholder-gray-200",
+    "requiredc": "famous",
+    "style": {
+      "block": "bg-greenCrayola text-white",
+      "container": "",
+      "title": "text-white",
+      "subtitle": "text-white",
+      "p": "text-white",
+      "span": ""
+    }
+  },
+  "footer": {
+    "title": "",
+    "p": "",
+    "style": {
+      "block": "text-black bg-white text:4xl sm:text-5xl",
+      "container": "py-10",
+      "title": "text-black underline",
+      "subtitle": "",
+      "p": "mb-0",
+      "span": ""
+    }
+  }
+}

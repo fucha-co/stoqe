@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: barriecito;
+    src: url("/fonts/Barriecito-Regular.woff2") format("woff2"), url("/fonts/Barriecito-Regular.woff") format("woff");
+  }
+}
+
+.mxa {
+  @apply mx-auto;
+}
+
+.tc {
+  @apply text-center;
+}
+
+.container {
+  @apply pt-32 pb-32;
+}
+
+/*.art-shop .container:first-of-type {
+  @apply pt-0 pb-0 sm:pt-0 sm:pb-0 md:pt-0 md:pb-0;
+}*/
+
+.hero .container:first-of-type {
+  @apply pt-16 pb-16 sm:pt-16 sm:pb-16 md:pt-24 md:pb-24;
+}
+
+/*.work .container:first-of-type,
+.words .container:first-of-type {
+  @apply pt-16 pb-16 sm:pt-16 sm:pb-16 md:pt-16 md:pb-16;
+}*/
+
+.container-space {
+  @apply pb-0;
+}
+
+.post-space {
+  @apply pt-0;
+}
+
+
+.sharebtn {
+  /* @apply relative flex z-10 bg-white border rounded-md p-2 opacity-50 hover:opacity-100 focus:outline-none focus:border-blue-400; */
+}
+
+.sharebtn:hover + .sharebtn-dropdown,
+.sharebtn:focus + .sharebtn-dropdown {
+  display: block;
+}
+
+.sharebtn-dropdown {
+  /* @apply absolute right-0 mt-0 w-48 bg-white rounded-sm overflow-hidden shadow-lg z-20 hidden border border-gray-100; */
+}
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/*** ***/

@@ -1,0 +1,23 @@
+<!-- FUN FACT -->
+<div class="{{ site.footer.style.block }}">
+    <div class="{{ site.footer.style.container }} {{ site.style.container }}">
+          <div class="grid grid-cols-6 grid-flow-row gap-4">
+            
+            <div class="col-span-full sm:col-span-1">
+              <a class="underline" href="/">Menu</a> 
+            </div>
+            
+            <div class="col-span-full sm:col-span-2 sm:text-center"><a class="" href="/">&copy; SAYSO 2022</a></div> 
+            
+            <div class="col-span-full sm:col-span-3 sm:text-right">
+                {% if page.url != '/contact/' %}
+                <!--🦠<span class="text-famous">Read <a href="/my-covid-crisis/" class="underline">My Covid Crisis</a></span><span class="hidden sm:inline">🦠</span-->
+                  <span class="text-black"><a href="/contact/" class="underline">Contact Me</a></span>
+                {% else %}
+                <span class="text-black"><a href="/">Return to 🏠<span class="underline">page</span></a></span>
+                {% endif %}
+            </div>
+          </div>
+      </div>
+  </div>
+  

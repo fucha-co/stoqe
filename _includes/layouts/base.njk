@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include "head.njk" %}
+
+  <body class="{{ site.style.body }} {{ page.url | replace('/', '') }}">
+
+    {% if heroHeader == "yes" %}
+      {% include "hero-header.njk" %}
+    {% endif %}
+
+    {% if signupHeader == "yes" %}
+      {% include "signup.njk" %}
+    {% endif %}
+    
+
+    <div class="bg-{{ heroBgColor }}/10">
+      {% block content %}
+          {{ content | safe }}
+      {% endblock %}
+    </div>
+    
+
+    {% if aoc == "yes" %}
+      {% include "aoc.njk" %}
+    {% endif %}
+    
+    {% if heroFooter == "yes" %}  
+      {% include "hero-footer.njk" %}
+    {% endif %}
+
+    {% if signupFooter == "yes" %}
+      {% include "signup.njk" %}
+    {% endif %}
+
+  </body>
+  {% if page.url == "/art-shop/" %}
+    <!--script src="/js/atropos.min.js"></script-->
+  {% endif %}
+  {% if page.url == "/aww/coffee/" %}
+    <!--link href="/css/ta-gallery.css" rel="stylesheet"-->
+    <!--script src="/js/ta-gallery-next.js"></script-->
+    <!--script src="/js/ta-gallery-next.min.js"></script-->
+    <!--script src="https://unpkg.com/@markusantonwolf/ta-gallery@latest/dist/js/ta-gallery.min.js"></script-->
+    {% endif %}
+
+</html>

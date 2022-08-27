@@ -1,0 +1,36 @@
+<!-- HERO -->
+<div class="{{ site.hero.style.block }} bg-white text-black">
+    <div class="{{ site.style.container }} {{ site.hero.style.container }}">
+
+      <!-- TITLE -->
+
+        <!-- Make hero h1 a link on all pages except home-->
+          {% if page.url == "/" %}
+
+            <h1 class="{{ site.hero.style.title }} {{ site.style.title }}">
+              {{ site.name }}
+            </h1>
+          
+          {% else %}
+          
+            <a href="/">
+              <h1 class="{{ site.hero.style.title }} {{ site.style.title }}">
+                  {{ site.name }}
+              </h1>
+            </a>
+
+          {% endif %}
+
+        <!-- SUBTITLE -->
+
+              <p class="mb-16 sm:mb-16">
+                This brand and domain is for sale.&nbsp;<br class="hidden sm:inline">
+                It includes the 5-letter .com domain and&nbsp;<br class="hidden sm:inline">
+                exact-match social media handles.
+              </p>
+
+              {% include "menu.njk" %}
+      
+
+    </div>
+</div>
