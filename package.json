@@ -8,7 +8,7 @@
     "build:css": "cross-env NODE_ENV=production postcss styles/tailwind.css --o _site/style.css && cleancss _site/style.css -o _site/style.css"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "@tailwindcss/forms": "^0.5.1",
     "alpinejs": "^3.0.7",
     "autoprefixer": "^10.4.7",
